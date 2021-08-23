@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://s3-sa-east-1.amazonaws.com/yaw-site-sp/app/">
+
+	<information>
+		<title>Aplicação Demo das tecnologias Swing e JPA</title>
+		<vendor>YaW Tecnologia</vendor>
+		<description>Demo Swing e JPA</description>
+		<description kind="short">SJPAC</description>
+		<icon href="logo_yaw.png"/>
+		<icon kind="splash" href="logo_yaw.png"/>
+	</information>
+	
+	<security>
+		<all-permissions />
+	</security>
+	
+	<resources>
+		<j2se version="1.6.0+" initial-heap-size="32m" max-heap-size="256m"/>
+		
+		<jar href="lib/hsqldb-2.2.8-s.jar" download="eager" />
+		<jar href="lib/log4j-1.2.16-s.jar" download="eager" />
+		<jar href="lib/slf4j-api-1.6.4.jar" download="eager" />
+		<jar href="lib/hibernate-core-4.1.6.Final.jar" download="eager" />
+		<jar href="lib/antlr-2.7.7.jar" download="eager" />
+		<jar href="lib/jboss-logging-3.1.0.GA.jar" download="eager" />
+		<jar href="lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" download="eager" />
+		<jar href="lib/dom4j-1.6.1.jar" download="eager" />
+		<jar href="lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" download="eager" />
+		<jar href="lib/javassist-3.15.0-GA.jar" download="eager" />
+		<jar href="lib/hibernate-commons-annotations-4.0.1.Final.jar" download="eager" />
+		<jar href="lib/hibernate-entitymanager-4.1.6.Final.jar" download="eager" />
+		<jar href="lib/hibernate-validator-4.3.1.Final.jar" download="eager" />
+		<jar href="lib/validation-api-1.0.0.GA.jar" download="eager" />
+
+		<jar href="lib/swing-jpa-crud.jar" download="eager" />
+	</resources>
+	<application-desc main-class="br.com.yaw.sjpac.app.Main" />
+</jnlp>
